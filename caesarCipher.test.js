@@ -7,3 +7,7 @@ test('cipher one letter', () => {
 test('cipher several letters', () => {
     expect(caesarCipher('aje' , 1)).toBe('bkf');
 })
+
+test('cipher letters at end of alphabet', () => {
+    expect(caesarCipher('yz' , 3)).toBe('bc');
+})
