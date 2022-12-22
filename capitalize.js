@@ -1,1 +1,6 @@
-export default capitalize
+const capitalize = (string) =>{
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+console.log(capitalize('hello'))
+export default capitalize;
