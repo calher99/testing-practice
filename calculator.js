@@ -8,4 +8,14 @@ const substract = (a,b) =>{
     return a-b;
 }
 
-export {add, substract};
+const divide = (a,b) =>{
+    if(isNaN(a) || isNaN(b))return null
+    return a/b;
+}
+
+const multiply = (a,b) =>{
+    if(isNaN(a) || isNaN(b))return null
+    return a*b;
+}
+
+export {add, substract, divide, multiply};
